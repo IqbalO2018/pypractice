@@ -41,6 +41,31 @@ print(s[:s.find("e")])
 replaced = s.replace("great","awesome")
 print(replaced)
 
+skip = s[1::2]
+print(skip)
+
+#value = a[len(s):halfway:-1]
+#print(value)
+words = s.split()
+numerofwords = len(words)
+print(words[0:2])
+print(words[0:2:-1])
+print(words[0:2:-1])
+print(words[::-1])
+
+sentence = "\n ".join(words)
+print(sentence)
+
+
+newsentence = sentence.replace("\n",":-)")
+print(newsentence)
+
+
+
+
+
+
+
 #s.replace("o","o")
 
 #slice
