@@ -1,0 +1,11 @@
+#todo, change to random number
+import random
+
+answer = random.randint(0,5)
+
+guess = int(raw_input("Enter a number, 0-5"))
+
+if(guess == answer):
+	print("Yes, you guessed my number")
+else:
+	print("No, you did not guess my number")

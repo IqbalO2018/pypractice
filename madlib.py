@@ -11,6 +11,7 @@ name = raw_input("enter a name")
 verb = raw_input("enter a verb")
 noun = raw_input("enter a noun")
 adjective = raw_input("enter an adjective")
+name = raw_input("enter a name 
 adjusted = story.format(name, verb, noun, adjective)
 
 print(adjusted)
